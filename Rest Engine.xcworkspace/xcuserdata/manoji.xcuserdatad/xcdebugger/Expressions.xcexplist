@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ViewController.executeRequest(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data.stringValue">
+            </PersistentString>
+            <PersistentString
+               value = "self.requestUrlTextField.stringValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

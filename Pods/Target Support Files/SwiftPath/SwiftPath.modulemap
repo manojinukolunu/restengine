@@ -1,0 +1,6 @@
+framework module SwiftPath {
+  umbrella header "SwiftPath-umbrella.h"
+
+  export *
+  module * { export * }
+}

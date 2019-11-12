@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		354237CF42CE424809C98B25 /* Pods_Rest_Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E22DB626BB320CA77C9281 /* Pods_Rest_Engine.framework */; };
+		BF681192237465A4009EE760 /* ResponseView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68119123746554009EE760 /* ResponseView.storyboard */; };
+		BFB8466223730627007D9C84 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8466123730627007D9C84 /* Storyboard.storyboard */; };
 		BFBA04E822F86B5300393E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA04E722F86B5300393E06 /* AppDelegate.swift */; };
 		BFBA04EA22F86B5300393E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA04E922F86B5300393E06 /* ViewController.swift */; };
 		BFBA04ED22F86B5300393E06 /* Rest_Engine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFBA04EB22F86B5300393E06 /* Rest_Engine.xcdatamodeld */; };
@@ -19,7 +21,9 @@
 		3BFC2CCE621044C1846572E7 /* Pods-Rest Engine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rest Engine.release.xcconfig"; path = "Target Support Files/Pods-Rest Engine/Pods-Rest Engine.release.xcconfig"; sourceTree = "<group>"; };
 		5355368C8CFBF37DF0759B5D /* Pods-Rest Engine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rest Engine.debug.xcconfig"; path = "Target Support Files/Pods-Rest Engine/Pods-Rest Engine.debug.xcconfig"; sourceTree = "<group>"; };
 		77E22DB626BB320CA77C9281 /* Pods_Rest_Engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rest_Engine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF68119123746554009EE760 /* ResponseView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ResponseView.storyboard; path = "/Users/manoji/Projects/Rest Engine/Rest Engine/ResponseView.storyboard"; sourceTree = "<absolute>"; };
 		BF704BEC236EED78004985CE /* Play.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Play.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BFB8466123730627007D9C84 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		BFBA04E422F86B5300393E06 /* Rest Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rest Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBA04E722F86B5300393E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBA04E922F86B5300393E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 		BFBA04DB22F86B5200393E06 = {
 			isa = PBXGroup;
 			children = (
+				BFB8466123730627007D9C84 /* Storyboard.storyboard */,
 				BFBA04E622F86B5300393E06 /* Rest Engine */,
 				BFBA04E522F86B5300393E06 /* Products */,
 				2F0D37D9868D809ACC1BC720 /* Pods */,
@@ -72,6 +77,7 @@
 		BFBA04E622F86B5300393E06 /* Rest Engine */ = {
 			isa = PBXGroup;
 			children = (
+				BF68119123746554009EE760 /* ResponseView.storyboard */,
 				BF704BEC236EED78004985CE /* Play.playground */,
 				BFBA04E722F86B5300393E06 /* AppDelegate.swift */,
 				BFBA04E922F86B5300393E06 /* ViewController.swift */,
@@ -153,8 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF681192237465A4009EE760 /* ResponseView.storyboard in Resources */,
 				BFBA04EF22F86B5300393E06 /* Assets.xcassets in Resources */,
 				BFBA04F222F86B5300393E06 /* Main.storyboard in Resources */,
+				BFB8466223730627007D9C84 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,11 +177,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rest Engine/Pods-Rest Engine-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftPath/SwiftPath.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPath.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

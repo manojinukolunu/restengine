@@ -6,6 +6,7 @@ target 'Rest Engine' do
   use_frameworks!
   pod 'Alamofire', '4.4.0'
   pod 'SwiftyJSON'
+  pod "SwiftPath"
   # Pods for Rest Engine
 
 end
